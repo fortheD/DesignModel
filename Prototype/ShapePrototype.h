@@ -13,7 +13,7 @@ class Rectangle:public ShapePrototype {
  public:
     Rectangle();
     Rectangle(const Rectangle& rectangle);
-    virtual ShapePrototype* clone();
+    virtual Rectangle* clone();
     virtual ~Rectangle();
 };
 

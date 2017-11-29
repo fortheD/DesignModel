@@ -8,7 +8,7 @@ Rectangle::Rectangle(const Rectangle& rectangle) {
     std::cout<<"copy rectangle constructor"<<std::endl;
 }
 
-ShapePrototype* Rectangle::clone() {
+Rectangle* Rectangle::clone() {
     std::cout<<"copy rectangle"<<std::endl;
     return new Rectangle(*this);
 }
